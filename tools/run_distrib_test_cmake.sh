@@ -71,7 +71,7 @@ git submodule foreach 'cd $toplevel; rm -rf $name'
 mkdir -p "cmake/build"
 pushd "cmake/build"
 cmake \
-  -DCMAKE_CXX_STANDARD=11 \
+  -DCMAKE_CXX_STANDARD=14 \
   -DCMAKE_BUILD_TYPE=Release \
   -DgRPC_INSTALL=ON \
   -DgRPC_BUILD_TESTS=OFF \

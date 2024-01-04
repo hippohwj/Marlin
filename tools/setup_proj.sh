@@ -1,1 +1,1 @@
-export PROJ_DIR=${HOME}/Arboretum-Distributed
+export PROJ_DIR=${HOME}/Marlin
